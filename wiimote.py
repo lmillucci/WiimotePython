@@ -7,4 +7,7 @@ time.sleep(1)
 
 wm=cwiid.Wiimote()
 
-wm.led=1
+for i in range(16):
+	wm.led=i
+	time.sleep(1)
+
